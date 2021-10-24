@@ -430,7 +430,7 @@ body {
 
 
 .social-icon {
-    fill: var(--primary-title-color);
+    fill: #AFB1B8;
 }
 
 
@@ -442,6 +442,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+}
+
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+    fill:var(--primary-title-color);
 }
 
 
