@@ -688,6 +688,66 @@ body {
 }
 
 
+.accession-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+    text-transform: uppercase;
+    padding-right: 61px;
+    padding-bottom: 64px;
+    margin-top: 72px;
+    margin-left: 156px;
+}
+
+
+.accession-social-item {
+    width: 44px;
+    height: 44px;
+    fill: rgba(255, 255, 255, 0.1);
+}
+
+.accession-social-item:not(last-child) {
+    margin-right: 10px;
+}
+
+
+.accession-social-list {
+    display: flex;
+    justify-content: center;
+}
+
+
+.accession-social-icon {
+    fill:var(--primary-title-color);
+}
+   
+
+
+.accession-social-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+}
+
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+    fill:var(--primary-title-color);
+}
+
+
 
 /*-----portfolio page-----*/
 
