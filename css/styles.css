@@ -316,7 +316,27 @@ body {
     letter-spacing: 0.03em;
     color:var(--secondary-title-color);
     text-transform: uppercase;
-  }
+}
+
+
+.gallery-item {
+    width: 270px;
+    height: 120px;
+    margin-right: 30px;
+}
+
+
+.gallery-item:last-child {
+    margin-right: 0;
+}
+
+
+
+.galleryl-icon {
+    fill: var(--third-background-color);
+    
+}
+
 
 .features-text {
     font-size: 14px;
@@ -346,6 +366,12 @@ body {
 
 .features-title {
     margin-bottom: 10px;
+}
+
+
+.gallery-list {
+    display: flex;
+    justify-content: center;
 }
 
 
