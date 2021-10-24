@@ -386,22 +386,63 @@ body {
 
 /*-----team----*/
 
-  .team-item-title {
+
+.team-item {
+    background-color: var(--background-color);
+}
+
+
+.team-item-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--secondary-title-color);
-  }
+}
 
-  .team-item-text {
+
+.team-item-text {
     font-size: 16px;
     line-height: 1.19x;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--second-text-color)
-  }
+    color:var(--second-text-color);
+    margin-bottom: 16px;
+}
+
+
+.social-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+.social-item:last-child {
+    margin-right: 0;
+}
+
+
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+
+.social-icon {
+    fill: var(--primary-title-color);
+}
+
+
+.social-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
   /*-----container-----*/
@@ -452,6 +493,7 @@ body {
 
 
 /*-----footer-----*/
+
 
 .footer {
     background-color: var(--secondary-background-color);
