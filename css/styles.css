@@ -320,16 +320,19 @@ body {
 
 
 .gallery-item {
+    display: flex;
     width: 270px;
     height: 120px;
-    margin-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
     justify-content: center;
     background-color: var(--third-background-color);
 }
 
 
-.gallery-item:last-child {
-    margin-right: 0;
+.gallery-item:not(last-child) {
+    margin-right: 30px;
 }
 
 
