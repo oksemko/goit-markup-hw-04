@@ -541,6 +541,56 @@ body {
 }
 
 
+/*-----regular clients-----*/
+
+
+.clients-title {
+    margin-bottom: 50px;
+}
+
+
+.clients-list {
+    display: flex;
+}
+
+
+.clients-icon {
+    fill: #AFB1B8;
+}
+
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+.clients-item:not(last-child) {
+    margin-right: 30px;
+}
+
+
+.clients-item:hover,
+.clients-item:focus {
+    border-color: var(--accent-color);
+}
+
+
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: var(--accent-color);
+}
+
+
+
 /*-----footer-----*/
 
 
