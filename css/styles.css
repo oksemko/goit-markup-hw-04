@@ -214,11 +214,24 @@ body {
 .header-contacts-list {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 
 
 .header-contacts-item:not(:last-child) {
     margin-right: 50px;
+}
+
+
+.header-social-icon {
+    fill: rgba(117, 117, 117, 1);
+    margin-right: 10px;
+}
+
+
+.header-social-icon:hover,
+.header-social-icon:focus {
+    fill: var(--accent-color);
 }
 
 
