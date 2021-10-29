@@ -361,7 +361,7 @@ body {
 }
 
 
-.features-gallery {
+.features-description {
     display: flex;
     justify-content: center;
     background-color:var(--background-color);
